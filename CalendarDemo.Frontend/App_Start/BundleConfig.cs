@@ -16,11 +16,13 @@
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular.js",
                 "~/Scripts/angular-ui-router.js",
-                "~/Scripts/angular-resource.js"));
+                "~/Scripts/angular-resource.js",
+                "~/Scripts/angular-ui/ui-bootstrap-tpls.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/app/app.js",
-                "~/app/calendars/calendars.js"));
+                "~/app/calendars/calendars.js",
+                "~/app/otherstuff/otherstuff.js"));
 
             bundles.Add(new StyleBundle("~/content/styles").Include(
                 "~/Content/bootstrap.css",

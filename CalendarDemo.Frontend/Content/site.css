@@ -45,3 +45,67 @@ body {
   background-color: #428bca;
 }
 
+.calenders-list {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.calenders-list li{
+    width:180px;
+    float:left;
+    margin:0px 20px 20px 0px;
+    overflow:hidden;
+    position:relative;
+}
+
+ .calenders-list li span.title{
+     display:block;
+     position:absolute;
+     left:5px;
+     right:5px;
+     top:calc(50% - 32px);
+     text-align:center;
+     color:#ffffff;
+     text-shadow:0px 0px 3px #000000;
+     font-size:16px;
+     font-weight:bold;
+ }
+
+ .calenders-list li span.subscribers {
+     display:block;
+     color:#bbbbbb;
+     text-align:center;
+     padding-top:20px;
+ }
+
+.calender-top {
+    margin-bottom:30px;
+}
+
+.calender-top .search{
+    width:325px;
+}
+
+.calender-top .search input.form-control{
+    width:240px;
+    display:inline-block;
+}
+
+.calender-top .calender {
+    width:190px;
+}
+
+.calender-top .calender button{
+    display:block;
+    width:100%;
+}
+
+.calender-top .calender button.btn-success {
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.calender-top .calender button.btn-success i{
+    margin-left:5px;
+}

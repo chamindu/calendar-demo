@@ -7,3 +7,6 @@
 /// <reference path="angular-ui-router.min.js" />
 /// <reference path="../app/calendars/calendars.js" />
 /// <reference path="angular-resource.min.js" />
+/// <reference path="angular-ui/ui-bootstrap-tpls.min.js" />
+/// <reference path="angular-ui/ui-bootstrap.js" />
+/// <reference path="../app/otherstuff/otherstuff.js" />

@@ -25,20 +25,21 @@
             <h3>General</h3>
             <ul class="nav nav-sidebar">
                 <li ui-sref-active="active"><a ui-sref="app.calendars"> <i class="fa fa-calendar"></i> Calendars</a></li>
-                <li><a href="#">Buttons</a></li>
-                <li><a href="#">Promotion Automation</a></li>
-                <li><a href="#">Subscribe Pages</a></li>
-                <li><a href="#">Schedule Page</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.buttons" href="#">Buttons</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.promotions">Promotion Automation</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.subscribe">Subscribe Pages</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.schedule">Schedule Page</a></li>
             </ul>
             <h3>Social</h3>
             <ul class="nav nav-sidebar">
-                <li><a href=""><i class="fa fa-twitter"></i> Twitter Handles</a></li>
-                <li><a href=""><i class="fa fa-facebook" ></i> Facebook Pages</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.twitter"><i class="fa fa-twitter"></i> Twitter Handles</a></li>
+                <li ui-sref-active="active"><a ui-sref="app.facebook"><i class="fa fa-facebook"></i> Facebook Pages</a></li>
             </ul>
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ui-view>
             <h1>content</h1>
         </div>
+    </div>
 </div>
 

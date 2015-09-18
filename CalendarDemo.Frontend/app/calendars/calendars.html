@@ -1,3 +1,24 @@
 ﻿<h1>Calendar home</h1>
 
-<p ng-repeat="calendar in calendars">{{calendar}}</p>
+<div class="calender-top clearfix">
+    <div class="pull-left search">
+        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Search">
+        <button class="btn btn-primary">Search</button>
+    </div>
+
+    <div class="pull-right calender">
+        <button class="btn btn-success">Create Calender <i class="fa fa-calendar"></i></button>
+        <button class="btn btn-link"><i class="fa fa-download"></i> Import from TV Guide</button>
+    </div>
+
+</div>
+
+<ul class="calenders-list clearfix">
+    <li ng-repeat="calendar in calendars">
+        <img ng-src="{{calendar.Image}}">
+        <span class="title">{{ calendar.Name }}</span>
+        <span class="subscribers">{{ calendar.SubscriberCount }} Subscribers</span>
+    </li>
+</ul>
+
+<pagination total-items="total" ng-model="currentPage" ng-change="pageChanged()"></pagination>

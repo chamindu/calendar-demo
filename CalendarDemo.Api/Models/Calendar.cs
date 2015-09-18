@@ -24,16 +24,5 @@
         /// Gets or sets the subscriber count.
         /// </summary>
         public int SubscriberCount { get; set; }
-
-        /// <summary>
-        /// Returns a <see cref="IEnumerable{Calendar}"/> of calendars.
-        /// </summary>
-        /// <returns>An instance of <see cref="IEnumerable{Calendar}"/>.</returns>
-        public static IEnumerable<Calendar> GetCalendars()
-        {
-            List<Calendar> list = new List<Calendar>();
-
-            return list;
-        }
     }
 }
