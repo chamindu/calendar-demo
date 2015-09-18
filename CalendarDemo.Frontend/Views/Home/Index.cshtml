@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <base href="@Request.ApplicationPath" />
+    <title>Index</title>
+    @Styles.Render("~/content/styles");
+</head>
+<body>
+    <div ui-view> 
+    </div>
+
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/app")
+</body>
+</html>
